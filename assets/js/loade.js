@@ -29,6 +29,27 @@ $(document).ready(function(){
   $(window).scroll(function(){
      $(' .navber-index').toggleClass('scrolled', $(this).scrollTop() > 50);
      });
+     $('.owl-carousel').owlCarousel({
+      autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+      loop:true,
+      margin:10,
+      nav:true,
+      ltr:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:4
+          },
+          1000:{
+              items:4
+          }
+      }
+      
+    });
      // below listed default settings
 AOS.init({
   // Global settings:
@@ -52,3 +73,4 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
