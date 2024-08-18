@@ -157,7 +157,7 @@ ul li{
      }
      .navber-index .navbar-nav .nav-link,.nav-login-lang
      {
-          font-size: 18px;
+          font-size: 17px;
           color: #fff;
           font-weight: bold;
           text-transform: capitalize;
@@ -165,7 +165,7 @@ ul li{
    .dropdown-link .dropdown-item{
      
      font-weight: 400;
-     font-size: 18px;
+     font-size: 16px;
      color: var(--color-default);
      font-weight: bold;
      text-transform: capitalize;
